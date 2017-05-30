@@ -1,0 +1,653 @@
+MillPWR Text File
+
+FormatVersion          = 3.0
+DimensionUnits         = INCH
+FeedRateUnits          = INCH
+AngleFormat            = D.M.S
+Steps                  = 056
+StepOver               =   0
+NumberOfCycles         = TRUE
+
+
+001  SET_TOOL
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+002  DRILL_POSITION
+        Center.X               =    -0.577600 ABS
+        Center.Y               =    -0.477000 ABS
+        Depth                  =     0.010000 ABS
+        zBegin                 =     0.010000 ABS
+        zType                  =     DRILL
+        zFeed                  =      1.00
+
+003  DRILL_POSITION
+        Center.X               =    -0.577600 ABS
+        Center.Y               =    -0.523000 ABS
+        Depth                  =     0.010000 ABS
+        zBegin                 =     0.010000 ABS
+        zType                  =     DRILL
+        zFeed                  =      1.00
+
+004  DRILL_POSITION
+        Center.X               =    -0.577600 ABS
+        Center.Y               =    -0.730000 ABS
+        Depth                  =     0.010000 ABS
+        zBegin                 =     0.010000 ABS
+        zType                  =     DRILL
+        zFeed                  =      1.00
+
+005  DRILL_POSITION
+        Center.X               =    -0.577600 ABS
+        Center.Y               =    -0.505000 ABS
+        Depth                  =     0.010000 ABS
+        zBegin                 =     0.010000 ABS
+        zType                  =     DRILL
+        zFeed                  =      1.00
+
+006  DRILL_POSITION
+        Center.X               =    -0.405000 ABS
+        Center.Y               =    -0.730000 ABS
+        Depth                  =     0.010000 ABS
+        zBegin                 =     0.010000 ABS
+        zType                  =     DRILL
+        zFeed                  =      1.00
+
+007  RECT_FRAME
+        First.X                =     0.000000 ABS
+        First.Y                =     0.000000 ABS
+        Size.X                 =    -1.549000
+        Size.Y                 =    -1.010000
+        Depth                  =     0.000000 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Offset                 =    CENTER
+        Feed_Rate              =     10.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        zFeed                  =     10.00
+
+008  SET_TOOL
+        Diam                   =     0.125000 INCH
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+009  RECT_POCKET
+        First.X                =    -0.250000 ABS
+        First.Y                =    -0.260000 ABS
+        Size.X                 =    -1.048750
+        Size.Y                 =    -0.190000
+        Depth                  =    -0.370000 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Feed_Rate              =      2.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      0.30
+
+010  SET_TOOL
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+011  RECT_POCKET
+        First.X                =    -0.395000 ABS
+        First.Y                =    -0.472500 ABS
+        Depth                  =    -0.262500 ABS
+        Second.X               =    -0.235000 ABS
+        Second.Y               =    -0.237500 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Feed_Rate              =      2.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      0.30
+
+012  SET_TOOL
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+013  RECT_POCKET
+        First.X                =    -0.260000 ABS
+        First.Y                =    -0.237500 ABS
+        Size.X                 =    -0.160000
+        Size.Y                 =    -0.235000
+        Depth                  =    -0.272500 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Feed_Rate              =      2.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      0.30
+
+014  SET_TOOL
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+015  RECT_POCKET
+        First.X                =    -0.260000 ABS
+        First.Y                =    -0.237500 ABS
+        Size.X                 =    -0.160000
+        Size.Y                 =    -0.235000
+        Depth                  =    -0.272500 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Feed_Rate              =      2.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      0.30
+
+016  RECT_POCKET
+        First.X                =    -0.111300 ABS
+        First.Y                =    -0.540000 ABS
+        Size.X                 =     0.236300
+        Size.Y                 =    -0.550000
+        Depth                  =    -0.650000 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Feed_Rate              =      3.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =    -0.155000 ABS
+        zPass                  =     6.000000
+        zFeed                  =      1.00
+
+017  RECT_POCKET
+        First.X                =    -1.663700 ABS
+        First.Y                =    -0.450000 ABS
+        Size.X                 =     0.315000
+        Size.Y                 =    -0.580000
+        Depth                  =    -0.165000 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Feed_Rate              =      3.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     3.000000
+        zFeed                  =      1.00
+
+018  RECT_POCKET
+        First.X                =    -1.427400 ABS
+        First.Y                =    -0.540000 ABS
+        Size.X                 =    -0.236300
+        Size.Y                 =    -0.550000
+        Depth                  =    -0.650000 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Feed_Rate              =      3.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =    -0.155000 ABS
+        zPass                  =     6.000000
+        zFeed                  =      1.00
+
+019  SET_TOOL
+        Diam                   =     0.937500 INCH
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+020  RING
+        Center.X               =    -0.774400 ABS
+        Center.Y               =    -0.505000 ABS
+        Depth                  =    -0.050000 ABS
+        Outer_Radius           =     1.200000
+        Inner_Radius           =     0.105000
+        Direction              =       CCW
+        Feed_Rate              =      2.00
+        Finish.Cut             =     0.005000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     1.000000
+        zFeed                  =      1.00
+
+021  SET_TOOL
+        Diam                   =     0.170000 INCH
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+022  CIRCLE_POCKET
+        Center.X               =    -0.774400 ABS
+        Center.Y               =    -0.105000 ABS
+        Depth                  =    -0.125000 ABS
+        Radius                 =     0.113000
+        Direction              =       CCW
+        Feed_Rate              =      3.00
+        Finish.Cut             =     0.003000
+        Finish.Feed            =      1.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      1.00
+
+023  LINE
+        From.X                 =    -0.821400 ABS
+        From.Y                 =    -0.132000 ABS
+        To.X                   =    -0.727400 ABS
+        To.Y                   =    -0.132000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      3.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+024  LINE
+        From.X                 =    -0.727400 ABS
+        From.Y                 =    -0.132000 ABS
+        To.X                   =    -0.774400 ABS
+        To.Y                   =    -0.051000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      3.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+025  LINE
+        From.X                 =    -0.774400 ABS
+        From.Y                 =    -0.051000 ABS
+        To.X                   =    -0.821400 ABS
+        To.Y                   =    -0.132000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      3.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+026  LINE
+        From.X                 =    -0.826400 ABS
+        From.Y                 =    -0.135000 ABS
+        To.X                   =    -0.722400 ABS
+        To.Y                   =    -0.135000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      1.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+027  LINE
+        From.X                 =    -0.722400 ABS
+        From.Y                 =    -0.135000 ABS
+        To.X                   =    -0.774400 ABS
+        To.Y                   =    -0.045000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      1.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+028  LINE
+        From.X                 =    -0.774400 ABS
+        From.Y                 =    -0.045000 ABS
+        To.X                   =    -0.826400 ABS
+        To.Y                   =    -0.135000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      1.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+029  CIRCLE_POCKET
+        Center.X               =    -0.428000 ABS
+        Center.Y               =    -0.705000 ABS
+        Depth                  =    -0.125000 ABS
+        Radius                 =     0.113000
+        Direction              =       CCW
+        Feed_Rate              =      3.00
+        Finish.Cut             =     0.003000
+        Finish.Feed            =      1.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      1.00
+
+030  LINE
+        From.X                 =    -0.427873 ABS
+        From.Y                 =    -0.650797 ABS
+        To.X                   =    -0.474873 ABS
+        To.Y                   =    -0.732203 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      3.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+031  LINE
+        From.X                 =    -0.474873 ABS
+        From.Y                 =    -0.732203 ABS
+        To.X                   =    -0.381224 ABS
+        To.Y                   =    -0.732000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      3.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+032  LINE
+        From.X                 =    -0.381224 ABS
+        From.Y                 =    -0.732000 ABS
+        To.X                   =    -0.427873 ABS
+        To.Y                   =    -0.650797 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      3.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+033  LINE
+        From.X                 =    -0.427971 ABS
+        From.Y                 =    -0.644967 ABS
+        To.X                   =    -0.479971 ABS
+        To.Y                   =    -0.735033 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      1.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+034  LINE
+        From.X                 =    -0.479971 ABS
+        From.Y                 =    -0.735033 ABS
+        To.X                   =    -0.376028 ABS
+        To.Y                   =    -0.735000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      1.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+035  LINE
+        From.X                 =    -0.376028 ABS
+        From.Y                 =    -0.735000 ABS
+        To.X                   =    -0.427971 ABS
+        To.Y                   =    -0.644967 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      1.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+036  CIRCLE_POCKET
+        Center.X               =    -1.120800 ABS
+        Center.Y               =    -0.705000 ABS
+        Depth                  =    -0.125000 ABS
+        Radius                 =     0.113000
+        Direction              =       CCW
+        Feed_Rate              =      3.00
+        Finish.Cut             =     0.003000
+        Finish.Feed            =      1.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      1.00
+
+037  LINE
+        From.X                 =    -1.120927 ABS
+        From.Y                 =    -0.650797 ABS
+        To.X                   =    -1.073927 ABS
+        To.Y                   =    -0.732203 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      3.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+038  LINE
+        From.X                 =    -1.073927 ABS
+        From.Y                 =    -0.732203 ABS
+        To.X                   =    -1.167576 ABS
+        To.Y                   =    -0.732000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      3.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+039  LINE
+        From.X                 =    -1.167576 ABS
+        From.Y                 =    -0.732000 ABS
+        To.X                   =    -1.120927 ABS
+        To.Y                   =    -0.650797 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      3.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+040  LINE
+        From.X                 =    -1.120829 ABS
+        From.Y                 =    -0.644967 ABS
+        To.X                   =    -1.068829 ABS
+        To.Y                   =    -0.735033 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      1.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+041  LINE
+        From.X                 =    -1.068829 ABS
+        From.Y                 =    -0.735033 ABS
+        To.X                   =    -1.172772 ABS
+        To.Y                   =    -0.735000 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      1.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+042  LINE
+        From.X                 =    -1.172772 ABS
+        From.Y                 =    -0.735000 ABS
+        To.X                   =    -1.120829 ABS
+        To.Y                   =    -0.644967 ABS
+        Depth                  =    -0.125000 ABS
+        Offset                 =    CENTER
+        Feed_Rate              =      1.00
+        zBegin                 =     0.010000 ABS
+        zFeed                  =      1.00
+
+043  SET_TOOL
+        Diam                   =     0.005000 INCH
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+044  CIRCLE_POCKET
+        Center.X               =    -0.774400 ABS
+        Center.Y               =    -0.105000 ABS
+        Depth                  =    -0.125000 ABS
+        Radius                 =     0.030000
+        Direction              =       CCW
+        Feed_Rate              =      1.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     1.000000
+        zFeed                  =      1.00
+
+045  CIRCLE_POCKET
+        Center.X               =    -0.428000 ABS
+        Center.Y               =    -0.705000 ABS
+        Depth                  =    -0.125000 ABS
+        Radius                 =     0.030000
+        Direction              =       CCW
+        Feed_Rate              =      1.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     1.000000
+        zFeed                  =      1.00
+
+046  CIRCLE_POCKET
+        Center.X               =    -1.120800 ABS
+        Center.Y               =    -0.705000 ABS
+        Depth                  =    -0.125000 ABS
+        Radius                 =     0.030000
+        Direction              =       CCW
+        Feed_Rate              =      1.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     1.000000
+        zFeed                  =      1.00
+
+047  SET_TOOL
+        Diam                   =     0.125000 INCH
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+048  RECT_FRAME
+        First.X                =    -0.247000 ABS
+        First.Y                =    -0.257000 ABS
+        Size.X                 =    -1.054700
+        Size.Y                 =    -0.196000
+        Depth                  =    -0.372000 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Offset                 =    INSIDE
+        Feed_Rate              =      2.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      0.30
+
+049  RECT_FRAME
+        First.X                =    -0.245000 ABS
+        First.Y                =    -0.255000 ABS
+        Size.X                 =    -1.058700
+        Size.Y                 =    -0.200000
+        Depth                  =    -0.375000 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Offset                 =    INSIDE
+        Feed_Rate              =      2.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      0.30
+
+050  SET_TOOL
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+051  RECT_FRAME
+        First.X                =    -0.005000 ABS
+        First.Y                =    -0.010000 ABS
+        Size.X                 =    -1.048700
+        Size.Y                 =    -0.190000
+        Depth                  =    -0.300000 ABS
+        Corner_Radius          =     0.062500
+        Direction              =       CCW
+        Offset                 =   OUTSIDE
+        Feed_Rate              =      2.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      0.30
+
+052  RECT_POCKET
+        First.X                =    -0.444350 ABS
+        First.Y                =     0.100000 ABS
+        Size.X                 =    -0.170000
+        Size.Y                 =    -0.145000
+        Depth                  =    -0.150000 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Feed_Rate              =      2.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.010000 ABS
+        zPass                  =     4.000000
+        zFeed                  =      0.30
+
+053  SET_TOOL
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+054  RECT_POCKET
+        First.X                =    -1.900000 ABS
+        First.Y                =    -0.444400 ABS
+        Size.X                 =    -0.190000
+        Size.Y                 =    -0.170000
+        Depth                  =     0.050000 ABS
+        Corner_Radius          =     0.000000
+        Direction              =       CCW
+        Feed_Rate              =      2.00
+        Tilt_Angle             =    0.00.00
+        Finish.Cut             =     0.000000
+        Finish.Feed            =      0.00
+        Finish.Dir             =       CCW
+        Step_Over              =    80.000000
+        zBegin                 =     0.100000 ABS
+        zPass                  =     1.000000
+        zFeed                  =      0.30
+
+055  SET_TOOL
+        Diam                   =     0.687500 INCH
+        Direction              =       OFF
+        ForceTlPos             =    0
+
+056  FACE
+        First.X                =     0.000000 ABS
+        First.Y                =     0.000000 ABS
+        Size.X                 =    -1.548800
+        Size.Y                 =    -1.010000
+        Depth                  =    -0.005000 ABS
+        Feed_Rate              =      3.00
+        Tilt_Angle             =    0.00.00
+        Step_Over              =    80.000000
+        zBegin                 =     0.100000 ABS
+        zPass                  =     1.000000
+        zFeed                  =      1.00
